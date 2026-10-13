@@ -1,0 +1,100 @@
+ACCORDO SUL TRATTAMENTO DEI DATI PERSONALI (DATA PROCESSING AGREEMENT - DPA)
+AI SENSI DELL'ART. 28 REGOLAMENTO (UE) 2016/679
+
+Art. 1 - Designazione e Oggetto dell'Accordo
+
+Con la sottoscrizione del presente atto, il Committente (come definito nelle Condizioni Generali di Fornitura) ed [[LAB_NAME]], con sede legale in [[LAB_ADDRESS]] – [[LAB_ZIP]] [[LAB_CITY]], P.IVA [[LAB_VAT]], regolano il trattamento dei dati personali e sanitari dei pazienti necessari all'espletamento dei servizi di fabbricazione di dispositivi medici su misura richiesti tramite la piattaforma "Order Manager", secondo la configurazione applicabile ai sensi dell'Art. 1 delle Condizioni Generali di Fornitura:
+
+- (a) quando il Committente agisce quale Prescrittore, esso è Titolare del Trattamento dei dati dei propri pazienti e, con il presente atto, nomina [[LAB_NAME]] Responsabile del Trattamento ai sensi dell'Art. 28 GDPR;
+- (b) quando il Committente è un committente professionale, esso agisce quale Responsabile del Trattamento per conto del Titolare a monte e, con il presente atto, sub-incarica [[LAB_NAME]] quale sub-responsabile del trattamento ai sensi dell'Art. 28, par. 2 e 4, GDPR, garantendo di disporre della previa autorizzazione del Titolare a sub-incaricare [[LAB_NAME]] e di trasmettere a quest'ultima le istruzioni documentate del Titolare.
+
+Ai fini del presente accordo, il termine «Titolare» designa il titolare del trattamento secondo la configurazione applicabile (il Committente nella configurazione (a); il soggetto a monte nella configurazione (b)); gli obblighi posti a carico del «Responsabile» si intendono riferiti a [[LAB_NAME]] nella corrispondente qualità di Responsabile o di sub-responsabile. Nella configurazione (b), il Committente assume verso [[LAB_NAME]], ai fini del presente accordo, gli obblighi e le prerogative del Titolare, restando impregiudicato il rapporto con il Titolare a monte.
+
+Recapito del Responsabile per le comunicazioni in materia di protezione dei dati: [[LAB_EMAIL]].
+
+Art. 2 - Durata e Ambito del Trattamento
+
+Il presente accordo ha durata pari al rapporto di fornitura professionale tra le parti. Il trattamento riguarda i dati personali dei pazienti (inclusi dati biometrici, scansioni intraorali e dati clinici particolari) che il Titolare trasmette al Responsabile per la produzione tecnica e la gestione della tracciabilità MDR.
+
+Art. 3 - Obblighi e Istruzioni del Responsabile
+
+Il Responsabile si impegna a:
+- Trattare i dati esclusivamente sulla base delle istruzioni documentate fornite dal Titolare tramite la Prescrizione Digitale, salvo diverse disposizioni di legge.
+- Garantire che il personale autorizzato al trattamento si sia impegnato alla riservatezza o abbia un adeguato obbligo legale di segretezza.
+- Adottare tutte le misure di sicurezza tecniche e organizzative richieste dall'Art. 32 del GDPR per garantire un livello di protezione adeguato al rischio, incluse cifratura dei dati a riposo e in transito, controllo degli accessi basato su ruoli, scansione antivirus su tutti i file caricati (ClamAV), rate-limiting, e protocolli di backup e disaster recovery.
+- Assistere il Titolare, ove possibile e tenuto conto della natura del trattamento, nell'evasione delle richieste degli interessati per l'esercizio dei loro diritti (Accesso, Rettifica, Cancellazione, Limitazione, Portabilità, Opposizione).
+
+Art. 4 - Sub-responsabili del Trattamento
+
+4.1 Autorizzazione generale. Il Titolare autorizza il Responsabile a ricorrere, per l'esecuzione di attività specifiche di trattamento, ai sub-responsabili elencati nell'Allegato A al presente DPA (di seguito "Elenco Sub-responsabili"), ciascuno dei quali agisce nel rispetto degli obblighi Art. 28 GDPR in forza di contratto scritto sottoscritto con il Responsabile che riproduce le stesse garanzie del presente DPA.
+
+4.2 Notifica di modifiche. Il Responsabile informa il Titolare di ogni modifica prevista all'Elenco Sub-responsabili (aggiunta o sostituzione), con preavviso minimo di 30 (trenta) giorni rispetto alla data di efficacia della modifica, mediante notifica in area riservata della piattaforma e/o via email all'indirizzo indicato dal Titolare per le comunicazioni formali.
+
+4.3 Diritto di opposizione. Il Titolare può opporsi per iscritto a una modifica proposta, con motivazione, entro il predetto termine di 30 giorni. In caso di opposizione, le Parti si impegnano a cooperare in buona fede per individuare soluzioni alternative. Qualora non sia possibile raggiungere un accordo:
+- (a) il Responsabile può rinunciare alla modifica e mantenere il precedente assetto;
+- (b) in alternativa, il Titolare ha diritto di recedere dal presente DPA e dal contratto principale, con comunicazione scritta da inviare entro ulteriori 15 (quindici) giorni dal mancato accordo, senza applicazione di penali. In caso di recesso: (i) il Responsabile cessa l'uso del sub-responsabile contestato nei confronti del Titolare recedente entro 30 giorni dal recesso o trasmigra i dati del Titolare a sub-responsabile accettato; (ii) il contratto principale si risolve alla scadenza di eventuali ordini in corso; i dati inclusi nel fascicolo tecnico MDR restano ferma la conservazione obbligatoria Art. 10(8) MDR; (iii) il Responsabile applica un criterio di rimborso proporzionale ai giorni non fruiti dell'eventuale abbonamento.
+
+4.4 Catena di responsabilità. Il Responsabile impone ai sub-responsabili, tramite contratto scritto avente efficacia giuridica in termini sostanzialmente equivalenti al presente DPA, gli stessi obblighi in materia di protezione dei dati, e resta pienamente responsabile nei confronti del Titolare per il rispetto da parte dei sub-responsabili degli obblighi loro imposti, ai sensi dell'Art. 28(4) GDPR.
+
+4.5 Trasferimenti verso Paesi terzi. Qualora uno o più sub-responsabili abbiano sede al di fuori dell'Unione Europea o dello Spazio Economico Europeo, il Responsabile assicura che il trasferimento sia regolato da idonea base giuridica ex Capo V GDPR (decisione di adeguatezza, Clausole Contrattuali Standard 2021/914, norme vincolanti d'impresa, deroghe ex Art. 49), accompagnata ove necessario da misure supplementari tecniche, contrattuali e organizzative conformi alle Raccomandazioni 01/2020 EDPB.
+
+4.6 Accesso all'elenco. Il Titolare può consultare in qualunque momento l'Elenco Sub-responsabili aggiornato nell'area riservata della piattaforma (sezione "Compliance / Sub-responsabili").
+
+Art. 5 - Sicurezza del Trattamento e Notifica Violazioni
+
+Il Responsabile mette in atto misure quali la cifratura dei dati a riposo e in transito, il controllo degli accessi basato su ruoli e protocolli di backup. In caso di violazione dei dati personali ("Data Breach"), il Responsabile notifica l'evento al Titolare senza ingiustificato ritardo e comunque entro 72 ore dalla scoperta, fornendo le informazioni necessarie per la segnalazione all'Autorità Garante ex Art. 33 GDPR.
+
+Art. 6 - Vincoli di Conservazione e Obblighi MDR
+
+In deroga alla norma generale di restituzione o cancellazione dei dati al termine del servizio prevista dal GDPR, le parti riconoscono che il Responsabile ha l'obbligo legale, derivante dall'Articolo 10, paragrafo 8 del Regolamento (UE) 2017/745 (MDR), di conservare la documentazione tecnica e i dati clinici dei pazienti per un periodo di almeno 10 anni (15 anni per i dispositivi impiantabili) dall'immissione sul mercato del manufatto. Tale conservazione è strettamente limitata alle finalità di vigilanza e tracciabilità post-vendita richieste dalla legge.
+
+Art. 7 - Attività di Audit e Verifica
+
+Il Responsabile mette a disposizione del Titolare tutte le informazioni necessarie per dimostrare il rispetto degli obblighi di cui all'Art. 28 del GDPR e consente le attività di revisione o ispezione effettuate dal Titolare o da un altro soggetto da questi incaricato, fermo restando il preavviso e la tutela dei segreti industriali del Fabbricante. In alternativa all'ispezione on-site, il Responsabile può mettere a disposizione certificazioni SOC 2 Type II o ISO 27001, ove disponibili, come evidenza equivalente.
+
+Art. 8 - Responsabilità e Risarcimento
+
+Il Responsabile risponde per il danno cagionato dal trattamento solo se non ha adempiuto agli obblighi del GDPR o ha agito in modo difforme o contrario alle istruzioni del Titolare. Il Responsabile è esonerato da responsabilità se dimostra che l'evento dannoso non gli è in alcun modo imputabile. La responsabilità derivante dal trattamento dei dati personali è regolata dal presente accordo e dall'Art. 82 GDPR, in via autonoma rispetto al limite di responsabilità da prodotto di cui all'Art. 8.4 delle Condizioni Generali di Fornitura, che non si applica alle violazioni in materia di protezione dei dati.
+
+Art. 9 - Foro Competente
+
+Per ogni controversia derivante dall'applicazione, interpretazione o esecuzione del presente accordo sulla protezione dei dati, sarà competente in via esclusiva il [[LAB_COURT]].
+
+ALLEGATO A — ELENCO SUB-RESPONSABILI DEL TRATTAMENTO
+Versione 2026.4 — aggiornato con notifica preventiva ai sensi dell'Art. 4.2
+
+L'elenco include unicamente i sub-responsabili che trattano dati personali per conto del Titolare. Fornitori che non trattano dati personali (es. fornitori di materiali dentali) non sono inclusi.
+
+Aruba S.p.A.
+Attività: SMTP transazionale (invio email notifiche sistema)
+Sede: Italia — Via San Clemente 53, 24036 Ponte San Pietro (BG)
+Base giuridica del trasferimento: Intra-UE — non applicabile
+Documento DPA: Aruba DPA standard (disponibile in area Compliance della piattaforma)
+
+Cloudflare, Inc.
+Attività: Content Delivery Network (CDN), protezione DDoS, Web Application Firewall (WAF)
+Sede: USA — 101 Townsend St, San Francisco (CA)
+Base giuridica del trasferimento: Art. 45 GDPR (EU-U.S. Data Privacy Framework, decisione adeguatezza 2023/1795) + Art. 46(2)(c) GDPR (Clausole Contrattuali Standard 2021/914 Modulo 2)
+Documento DPA: Cloudflare Customer DPA (disponibile su https://www.cloudflare.com/cloudflare-customer-dpa/)
+
+Nota sui flussi di dato. Cloudflare, Inc. opera quale CDN, WAF e tunnel di rete davanti alla piattaforma: tutto il traffico verso la piattaforma — comprese le operazioni di caricamento e scaricamento dei file CAD/CAM e del patient_ref — transita attraverso l'infrastruttura di Cloudflare, ove la connessione TLS è terminata all'edge. Cloudflare tratta pertanto in transito anche i dati clinici, in forma pseudonimizzata (patient_ref, senza identificativi diretti del paziente; tag DICOM identificativi rimossi), e non li conserva stabilmente, svolgendo funzione di transito, instradamento e protezione. Aruba S.p.A. tratta esclusivamente le email transazionali di notifica (Italia) e non tratta i file clinici. La pseudonimizzazione effettuata a monte dal Titolare, unitamente alla cifratura in transito e a riposo, costituisce misura supplementare ai sensi delle Raccomandazioni 01/2020 EDPB; i trasferimenti verso gli Stati Uniti (Cloudflare) sono regolati dal EU-U.S. Data Privacy Framework (decisione di adeguatezza 2023/1795) e dalle Clausole Contrattuali Standard 2021/914.
+
+ALLEGATO B — DESCRIZIONE DEL TRATTAMENTO
+(ai sensi dell'Art. 28, par. 3, GDPR)
+
+Categorie di interessati: pazienti del Titolare del trattamento.
+
+Categorie di dati personali:
+- `patient_ref` — pseudonimo alfanumerico assegnato dal Prescrittore; il Responsabile non conosce la corrispondenza con l'identità del paziente;
+- file CAD/CAM — impronte intraorali (STL/PLY) e radiografie DICOM previa rimozione dei tag identificativi (PatientName, PatientID, PatientBirthDate);
+- specifiche anatomiche e note cliniche.
+
+Tali dati costituiscono dati relativi alla salute ex Art. 9 GDPR, trattati in forma pseudonimizzata.
+
+Natura e finalità del trattamento: fabbricazione di dispositivi medici su misura su prescrizione del Prescrittore e adempimento degli obblighi di tracciabilità e sorveglianza post-commercializzazione ex Regolamento (UE) 2017/745. Il trattamento non comporta profilazione né decisioni automatizzate.
+
+Durata del trattamento: per la durata del rapporto di fornitura; i dati inclusi nel fascicolo tecnico MDR sono conservati per almeno 10 anni (15 per i dispositivi impiantabili) dall'immissione sul mercato, ai sensi dell'Art. 10(8) MDR e dell'Art. 6 del presente accordo.
+
+Misure di sicurezza: come da Artt. 3 e 5 del presente accordo (cifratura a riposo e in transito, controllo degli accessi basato su ruoli, scansione antivirus, rate-limiting, backup e disaster recovery).
+
+[[LAB_NAME]] · P.IVA [[LAB_VAT]] · Data Processing Agreement ex Art. 28 GDPR · Versione 2026.4

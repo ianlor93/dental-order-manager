@@ -1,0 +1,6 @@
+tier,name,storage_gb,gift_credits,priority
+L0,L0,25,0,0
+L1,L1,100,40,1
+L2,L2,500,60,2
+L3,L3,2000,100,3
+L4,L4,8000,200,4

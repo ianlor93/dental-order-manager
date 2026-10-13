@@ -1,0 +1,282 @@
+/* Enamel — colors and type
+ * Drop-in CSS for any HTML artifact. Includes base color vars, type vars,
+ * and semantic element styles. Pair with logos in assets/logo/.
+ *
+ * Usage:
+ *   <link rel="stylesheet" href="colors_and_type.css">
+ *   <h1>Protesi che il dentista <span class="accent">non rifà</span></h1>
+ *
+ * Non-negoziabili:
+ *   - Una sola famiglia: Ubuntu (400/500/700)
+ *   - Un solo accent: #FF6037, mai sfondi interi arancioni
+ *   - Canvas off-white freddo, non bianco puro per il marketing
+ *   - Sentence case nei titoli, mai Title Case né ALL CAPS (eccezione: overline ≤3 parole)
+ */
+
+/* ── Fonts: Ubuntu, local — pesi usati 400/500/700 ─────────────────────
+ * Light (300), italic e altri pesi sono DICHIARATI ma NON usati nel sistema:
+ * Ubuntu Light si sgretola sotto i 14px e contraddice il tono.
+ */
+@font-face {
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url('fonts/Ubuntu-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url('fonts/Ubuntu-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url('fonts/Ubuntu-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url('fonts/Ubuntu-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url('fonts/Ubuntu-Italic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+  src: url('fonts/Ubuntu-MediumItalic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+  src: url('fonts/Ubuntu-BoldItalic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+  src: url('fonts/Ubuntu-LightItalic.ttf') format('truetype');
+}
+
+:root {
+  /* ── Color: base palette ────────────────────────────────────────────── */
+  --ink:     #0B0B0C;  /* primary text + dark surfaces */
+  --accent:  #FF6037;  /* Outrageous Orange — usato come arma */
+  --canvas:  #F4F5F6;  /* off-white freddo, sfondo marketing */
+  --paper:   #FFFFFF;  /* card elevate sopra il canvas */
+  --night:   #141416;  /* sfondi dark (hero alternati, CAD) */
+  --steel:   #2B2A29;  /* bordi/testo secondario su night */
+  --mute:    #6E6B66;  /* testo secondario su light */
+  --line:    #E5E1DA;  /* bordi/divider su light */
+  --success: #1F8A4C;
+  --warn:    #D4860D;  /* mostarda, NON arancio */
+  --error:   #C4302B;
+
+  /* ── Color: semantic (foreground / background pairs) ────────────────── */
+  --fg-1:        var(--ink);    /* body text on light */
+  --fg-2:        var(--mute);   /* secondary text on light */
+  --fg-on-dark:  var(--paper);
+  --fg-2-on-dark:#A8A6A1;       /* secondary text on night */
+  --bg-page:     var(--canvas);
+  --bg-elev:     var(--paper);
+  --bg-dark:     var(--night);
+  --border-1:    var(--line);
+  --border-dark: var(--steel);
+  --link:        var(--ink);
+  --link-hover:  var(--accent);
+
+  /* ── Type: family + weights ─────────────────────────────────────────── */
+  --font-sans: 'Ubuntu', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  --fw-regular: 400;
+  --fw-medium:  500;
+  --fw-bold:    700;
+
+  /* ── Type: scale (rem, line-height, letter-spacing) ─────────────────── */
+  --fs-overline:  0.75rem;   /* 12px — overline UPPERCASE max 3 parole */
+  --fs-small:     0.875rem;  /* 14px — caption, label, footer */
+  --fs-body:      1rem;      /* 16px — default body */
+  --fs-body-lg:   1.125rem;  /* 18px — hero subtitle, article body */
+  --fs-h3:        1.5rem;    /* 24px — card title, sub-sezione */
+  --fs-h2:        2rem;      /* 32px — sezione */
+  --fs-h1:        2.75rem;   /* 44px — titolo pagina */
+  --fs-display:   4rem;      /* 64px — hero gigante */
+
+  --lh-display:  1.05;
+  --lh-h1:       1.1;
+  --lh-h2:       1.15;
+  --lh-h3:       1.25;
+  --lh-body:     1.55;
+  --lh-small:    1.5;
+  --lh-overline: 1.4;
+
+  --ls-display:  -0.02em;
+  --ls-h1:       -0.015em;
+  --ls-h2:       -0.01em;
+  --ls-h3:       -0.005em;
+  --ls-body:     0;
+  --ls-overline: 0.08em;
+  --ls-wordmark: 0.08em;   /* "enamel" inline */
+
+  /* ── Spacing: base 8 ────────────────────────────────────────────────── */
+  --space-1: 0.25rem; --space-2: 0.5rem;  --space-3: 0.75rem;
+  --space-4: 1rem;    --space-5: 1.5rem;  --space-6: 2rem;
+  --space-7: 3rem;    --space-8: 4rem;    --space-9: 6rem;
+  --space-10:8rem;
+
+  /* ── Radius ─────────────────────────────────────────────────────────── */
+  --radius-none:  0;
+  --radius-card:  4px;
+  --radius-input: 6px;
+  --radius-badge: 4px;
+  --radius-pill:  9999px;
+
+  /* ── Shadow (solo 2) ────────────────────────────────────────────────── */
+  --shadow-card: 0 1px 2px rgb(0 0 0 / 0.05);
+  --shadow-lift: 0 4px 12px rgb(0 0 0 / 0.08);
+
+  /* ── Motion ─────────────────────────────────────────────────────────── */
+  --duration-micro:  160ms;
+  --duration-medium: 240ms;
+  --duration-large:  480ms;
+  --easing-standard: cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  /* ── Layout ─────────────────────────────────────────────────────────── */
+  --container: 1200px;
+}
+
+/* ── Reset + base ────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  font-family: var(--font-sans);
+  color: var(--fg-1);
+  background: var(--bg-page);
+  font-size: 16px;
+  line-height: var(--lh-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body { margin: 0; }
+
+/* ── Semantic element styles ─────────────────────────────────────────── */
+h1, h2, h3, h4, h5 {
+  font-family: var(--font-sans);
+  font-weight: var(--fw-bold);
+  color: var(--fg-1);
+  margin: 0;
+  /* sentence case is a writing convention; NEVER text-transform headings */
+}
+
+h1 {
+  font-size: var(--fs-h1);
+  line-height: var(--lh-h1);
+  letter-spacing: var(--ls-h1);
+}
+h2 {
+  font-size: var(--fs-h2);
+  line-height: var(--lh-h2);
+  letter-spacing: var(--ls-h2);
+}
+h3 {
+  font-size: var(--fs-h3);
+  line-height: var(--lh-h3);
+  letter-spacing: var(--ls-h3);
+}
+
+p { margin: 0; }
+p, li { max-width: 65ch; }
+
+small, .small {
+  font-size: var(--fs-small);
+  line-height: var(--lh-small);
+}
+
+code, pre, kbd, samp {
+  font-family: 'Ubuntu Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+  font-size: 0.95em;
+}
+
+/* ── Utility classes ─────────────────────────────────────────────────── */
+.display {
+  font-size: var(--fs-display);
+  line-height: var(--lh-display);
+  letter-spacing: var(--ls-display);
+  font-weight: var(--fw-bold);
+}
+
+.body-lg {
+  font-size: var(--fs-body-lg);
+  line-height: var(--lh-body);
+}
+
+.overline {
+  display: inline-block;
+  font-size: var(--fs-overline);
+  line-height: var(--lh-overline);
+  letter-spacing: var(--ls-overline);
+  text-transform: uppercase;
+  font-weight: var(--fw-medium);
+  color: var(--fg-2);
+}
+
+.accent { color: var(--accent); }   /* the brand's signature in-headline highlight */
+.muted  { color: var(--fg-2); }
+.tabular { font-variant-numeric: tabular-nums; }
+
+/* Inline wordmark "enamel" — always lowercase, 0.08em tracking */
+.wordmark {
+  font-family: var(--font-sans);
+  font-weight: var(--fw-regular);
+  letter-spacing: var(--ls-wordmark);
+  text-transform: lowercase;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  transition: color var(--duration-micro) var(--easing-standard);
+}
+a:hover { color: var(--link-hover); }
+
+::selection {
+  background: var(--accent);
+  color: var(--paper);
+}
+
+/* Dark surface helper */
+.on-dark {
+  background: var(--bg-dark);
+  color: var(--fg-on-dark);
+}
+.on-dark .muted { color: var(--fg-2-on-dark); }
+.on-dark a { color: var(--fg-on-dark); }
+.on-dark a:hover { color: var(--accent); }
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

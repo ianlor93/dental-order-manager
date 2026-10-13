@@ -1,0 +1,15 @@
+/* public/fonts/ubuntu.css — Ubuntu self-hosted (NO Google Fonts) — 2026-06 */
+/* Riusa i .ttf già presenti in public/ds/fonts/ (path assoluto /ds/fonts/).        */
+/* SOLO @font-face: nessuna regola su body/elementi/colori, per non alterare lo      */
+/* styling delle pagine legali/app. font-family:'Ubuntu' identico a quello già usato.*/
+/* Nota: Ubuntu non ha il peso 900; le pagine che chiedevano 900 ripiegano su 700    */
+/* (grassetto sintetico) — identico al comportamento precedente con Google.          */
+
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:300;font-display:swap;src:url('/ds/fonts/Ubuntu-Light.ttf') format('truetype');}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;font-display:swap;src:url('/ds/fonts/Ubuntu-Regular.ttf') format('truetype');}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;font-display:swap;src:url('/ds/fonts/Ubuntu-Medium.ttf') format('truetype');}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;font-display:swap;src:url('/ds/fonts/Ubuntu-Bold.ttf') format('truetype');}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:300;font-display:swap;src:url('/ds/fonts/Ubuntu-LightItalic.ttf') format('truetype');}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:400;font-display:swap;src:url('/ds/fonts/Ubuntu-Italic.ttf') format('truetype');}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:500;font-display:swap;src:url('/ds/fonts/Ubuntu-MediumItalic.ttf') format('truetype');}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:700;font-display:swap;src:url('/ds/fonts/Ubuntu-BoldItalic.ttf') format('truetype');}

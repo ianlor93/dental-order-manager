@@ -1,0 +1,22 @@
+Clausole Vessatorie ai sensi dell'Art. 1341, comma 2, c.c.
+Indice di approvazione specifica — Passo 2 dell'onboarding · documento dei servizi · Versione 2026.4
+
+Il Committente, per l'apposizione della seconda accettazione prevista dalla piattaforma al momento della sottoscrizione del contratto, dichiara di approvare specificamente le seguenti clausole, il cui testo integrale è riportato nei corrispondenti articoli delle Condizioni Generali di Fornitura:
+
+- Art. 2.6 (Sospensione della lavorazione in caso di dati della Prescrizione Digitale incompleti, incoerenti o tecnicamente non realizzabili)
+- Art. 7 (Tempi di Produzione e Validazione Tecnica — riserva del Fabbricante di sospendere la produzione)
+- Art. 8.2 (Verifica della conformità e denuncia dei difetti manifesti entro 60 giorni dalla consegna, a pena di decadenza)
+- Art. 8.3 (Limitazione ai soli danni diretti e prevedibili, con esclusione di danni indiretti, consequenziali, da lucro cessante e da danno all'immagine)
+- Art. 8.4 (Limite massimo complessivo di responsabilità: l'importo maggiore tra Euro 50.000,00 per singolo evento e il triplo dei corrispettivi pagati nei 12 mesi antecedenti l'evento)
+- Art. 8.6 (Esclusione di responsabilità del Fabbricante per attività cliniche, diagnosi, piani di trattamento e procedure eseguite dal Prescrittore o da altri professionisti sanitari)
+- Art. 9.6 (Obbligo di manleva e tenuta indenne del Committente per caricamento accidentale di dati identificativi del paziente)
+- Art. 9-bis.3 (Esclusione di livelli di servizio garantiti per la piattaforma e lo Spazio Cloud)
+- Art. 9-bis.6 (Cancellazione definitiva dei file liberi decorsi 12 mesi dalla sospensione o cessazione del rapporto)
+- Art. 10 (Foro competente esclusivo: [[LAB_COURT]] per qualsiasi controversia)
+- Art. 11.3 (Clausola risolutiva espressa ai sensi dell'Art. 1456 c.c.)
+- Art. 13 (Modifica unilaterale del contratto con preavviso di 30 giorni e accettazione tacita per silenzio)
+- Art. 14.1 (Divieto di cessione del contratto da parte del Committente senza consenso scritto del Fabbricante)
+
+Ai sensi dell'Art. 1341, comma 2, c.c., la specifica approvazione di queste clausole richiede un'azione distinta dall'accettazione generale del contratto.
+
+[[LAB_NAME]] · P.IVA [[LAB_VAT]] · Clausole Vessatorie ex Art. 1341 c.c. · Versione 2026.4

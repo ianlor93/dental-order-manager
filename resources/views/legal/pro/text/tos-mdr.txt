@@ -1,0 +1,236 @@
+TERMINI E CONDIZIONI GENERALI DI FORNITURA PROFESSIONALE DI DISPOSITIVI MEDICI SU MISURA E DI SERVIZI DIGITALI ACCESSORI
+Versione 2026.4 · documento dei servizi (clienti professionali)
+
+Art. 1 - Identificazione delle Parti e Qualifica ai sensi del Reg. (UE) 2017/745
+
+Il presente contratto disciplina il rapporto di fornitura tra:
+
+[[LAB_NAME]], con sede legale in [[LAB_ADDRESS]] – [[LAB_ZIP]] [[LAB_CITY]], P.IVA [[LAB_VAT]], iscritta presso il Ministero della Salute con numero di registrazione [[LAB_MDR_REG]], che opera quale «Fabbricante» ai sensi dell'Art. 2, punto 30), del Regolamento (UE) 2017/745.
+
+Il soggetto giuridico o professionale che sottoscrive il presente contratto ed emette ordini tramite la piattaforma "Order Manager", d'ora in poi denominato «Committente».
+
+Ai fini del presente contratto si intende per «Prescrittore» la persona che prescrive il dispositivo e che vi è autorizzata dal diritto nazionale in virtù delle sue qualifiche professionali, ai sensi dell'Art. 2, punto 3), e dell'Allegato XIII, punto 1, del Regolamento (UE) 2017/745.
+
+Il Committente può rivestire, alternativamente:
+- (a) la qualità di Prescrittore, quando è esso stesso la persona autorizzata che prescrive il dispositivo: in tal caso agisce sotto la propria esclusiva responsabilità clinica e garantisce di essere abilitato all'esercizio della professione nel rispetto delle normative nazionali vigenti;
+- (b) la qualità di committente professionale (a titolo esemplificativo: laboratorio odontotecnico, centro di fresaggio o altro fabbricante di dispositivi su misura), quando commissiona al Fabbricante un dispositivo su misura, o un prodotto intermedio su misura, sulla base di una prescrizione resa a monte da un Prescrittore: in tal caso garantisce di operare quale operatore professionale autorizzato a norma di legge e che la commessa è coperta da una prescrizione valida resa da un Prescrittore, di cui fornisce gli estremi identificativi richiesti dall'Allegato XIII MDR.
+
+Le obbligazioni di natura clinica previste dal presente contratto — in particolare la redazione e la sottoscrizione della Prescrizione Digitale, la custodia della corrispondenza tra il patient_ref e l'identità del paziente, la conservazione della documentazione clinica e la comunicazione al paziente dei rischi residui — fanno capo al Prescrittore: quando il Committente coincide con il Prescrittore [lettera (a)] le adempie direttamente; quando il Committente agisce quale committente professionale [lettera (b)] ne garantisce l'adempimento da parte del Prescrittore a monte. Restano impregiudicate le qualificazioni e gli obblighi documentali MDR applicabili alla catena di fornitura ai sensi dell'Allegato XIII.
+
+Nella configurazione (b), quando la commessa ha per oggetto un prodotto intermedio (semilavorato) su misura, il Committente è il fabbricante del dispositivo finito su misura ai sensi dell'Art. 2, punto 30), del Regolamento MDR e assume i relativi obblighi documentali, inclusa la dichiarazione di cui all'Allegato XIII; [[LAB_NAME]] opera quale fabbricante terzo del semilavorato e mette a disposizione del Committente la documentazione tecnica del componente fornito. Quando invece la commessa ha per oggetto un dispositivo finito su misura, [[LAB_NAME]] ne è il Fabbricante ai sensi del medesimo Art. 2, punto 30).
+
+Art. 1-bis - Utenti Delegati e Responsabilità del Titolare
+
+1-bis.1 Il Committente, quale titolare dell'account (di seguito, nel presente articolo, «Titolare»), è l'unico soggetto che stipula il presente contratto con il Fabbricante. Il contratto è concluso in nome e per conto dell'entità giuridica rappresentata dal Titolare (studio professionale, società, clinica, laboratorio) e a essa integralmente imputabile.
+
+1-bis.2 Il Titolare ha facoltà di delegare l'accesso alla piattaforma a uno o più Prescrittori Delegati (di seguito "Delegati"), identificati nominalmente nel sistema tramite credenziali Nextcloud associate al medesimo account studio. Ciascun Delegato opera esclusivamente in nome e per conto del Titolare, nell'ambito delle autorizzazioni a esso conferite (ruoli: admin, prescriber, viewer).
+
+1-bis.3 Il Titolare è solidalmente e personalmente responsabile di ogni atto, omissione o violazione compiuta dai Delegati nell'utilizzo della piattaforma, incluse — a titolo esemplificativo e non tassativo — la creazione di ordini non conformi, il caricamento di file clinici non pseudonimizzati, la validazione di prescrizioni inesatte, la violazione degli obblighi MDR e GDPR. Resta salva la responsabilità esclusiva del Delegato per atti compiuti in violazione manifesta delle istruzioni del Titolare o per finalità fraudolente proprie, nonché per i profili di responsabilità penale e disciplinare personali connessi all'esercizio della professione sanitaria.
+
+1-bis.4 Il Titolare si obbliga a:
+- (a) abilitare come Delegati solo soggetti in possesso delle qualifiche professionali richieste dalla normativa vigente per la prescrizione di dispositivi medici su misura (iscrizione all'Albo degli Odontoiatri o all'Ordine dei Medici con specializzazione pertinente);
+- (b) comunicare tempestivamente al Fabbricante la cessazione del rapporto professionale con un Delegato, procedendo alla sua disabilitazione dalla piattaforma;
+- (c) non condividere le credenziali di accesso dei Delegati con soggetti terzi non autorizzati;
+- (d) garantire che i Delegati abbiano preso visione delle policy operative della piattaforma e degli obblighi MDR e GDPR pertinenti alla loro attività.
+
+1-bis.5 La firma del presente contratto da parte del Titolare vale come autorizzazione generale al trattamento dei dati dei pazienti da parte dei Delegati, ai sensi dell'Art. 29 del Regolamento (UE) 2016/679 (GDPR). I Delegati agiscono come "persone autorizzate" dal Titolare (Titolare del Trattamento) e non richiedono la firma di un DPA separato con il Fabbricante.
+
+1-bis.6 Le prescrizioni digitali generate dai Delegati recano la firma elettronica semplice del singolo Delegato (uid nominativo, timestamp, SHA-256), che agisce in qualità di Prescrittore ai sensi dell'Allegato XIII MDR. La responsabilità clinica della prescrizione è del Delegato prescrittore; la responsabilità contrattuale verso il Fabbricante è del Titolare ai sensi del comma 1-bis.3.
+
+1-bis.7 Il Titolare è tenuto a notificare immediatamente al Fabbricante la compromissione accertata o sospetta delle credenziali di accesso di un Delegato, procedendo contestualmente alla disabilitazione del Delegato dalla piattaforma. La mancata notifica tempestiva costituisce inadempimento contrattuale autonomo del Titolare ai sensi dell'Art. 1456 c.c. e trasferisce in capo al Titolare la responsabilità per gli atti compiuti tramite le credenziali compromesse successivamente alla compromissione.
+
+1-bis.8 La facoltà di delega di cui al comma 1-bis.2 è propria del Committente che agisce quale Prescrittore ai sensi dell'Art. 1, lettera (a). Quando il Committente è un committente professionale ai sensi dell'Art. 1, lettera (b), all'account è associato un unico Prescrittore.
+
+Art. 1-ter - Oggetto del Contratto e Componenti del Servizio
+
+1-ter.1 Con un'unica iscrizione, il Fabbricante mette a disposizione del Committente le seguenti componenti, fra loro funzionalmente connesse:
+- (a) la fornitura di dispositivi medici su misura ai sensi del Regolamento (UE) 2017/745, nella quale [[LAB_NAME]] opera in qualità di Fabbricante e che è disciplinata dagli Artt. da 2 a 8 del presente contratto;
+- (b) l'accesso alla piattaforma "Order Manager" e a uno spazio di archiviazione cloud (di seguito «Spazio Cloud»), connessi e accessori alla componente di cui alla lettera (a), nei quali [[LAB_NAME]] opera in qualità di fornitore di servizi digitali e che sono disciplinati dall'Art. 9-bis.
+
+1-ter.2 Le componenti di cui al comma 1-ter.1 sono oggetto di un rapporto contrattuale unitario; la cessazione del contratto, per qualsiasi causa, produce effetto su entrambe, secondo quanto previsto dall'Art. 11. La qualificazione di [[LAB_NAME]] come Fabbricante ai sensi dell'Art. 1 si riferisce alla componente di cui alla lettera (a) e non muta in ragione della fornitura dei servizi digitali accessori di cui alla lettera (b).
+
+1-ter.3 Nel presente contratto il termine «Fabbricante» designa [[LAB_NAME]] quale parte del rapporto, in entrambe le qualità indicate al comma 1-ter.1.
+
+Art. 2 - Prescrizione Medica Digitale
+
+2.1 Il Fabbricante realizza i dispositivi esclusivamente sulla base di una prescrizione redatta dal Prescrittore tramite il sistema "Order Manager" (di seguito: "Prescrizione Digitale"), in conformità all'Allegato XIII, punto 1, del Regolamento (UE) 2017/745.
+
+2.2 La Prescrizione Digitale si compone dei seguenti elementi, tutti obbligatori:
+- (a) identificazione del Prescrittore mediante credenziali nominative associate in modo univoco al titolare dell'account, ai dati di iscrizione all'Ordine dei Medici o all'Albo degli Odontoiatri e ai dati identificativi dello studio professionale (ragione sociale, partita IVA, sede);
+- (b) identificazione del paziente mediante acronimo o codice alfanumerico univoco ("patient_ref") assegnato dal Prescrittore, che conserva in via esclusiva la corrispondenza con i dati anagrafici del paziente nella propria cartella clinica;
+- (c) caratteristiche progettuali e tecniche del dispositivo, inserite nel modulo digitale della piattaforma e corredate dagli asset digitali (file STL, PLY, DICOM, eventuali immagini e note cliniche);
+- (d) marcatura temporale in formato ISO 8601, applicata automaticamente dal sistema al momento della validazione;
+- (e) impronta crittografica SHA-256 (validation_hash) dei dati della prescrizione e degli allegati, calcolata al momento della validazione e conservata nel fascicolo tecnico del dispositivo.
+
+2.3 Le Parti riconoscono che la Prescrizione Digitale costituisce prescrizione scritta ai sensi dell'Allegato XIII, punto 1, del Regolamento (UE) 2017/745, ed è sottoscritta dal Prescrittore mediante firma elettronica semplice ex Art. 25 del Regolamento (UE) 910/2014 ("eIDAS"), risultante dal combinato di autenticazione nominativa al sistema, apposizione di marcatura temporale e impronta SHA-256. Resta ferma la facoltà delle Parti di adottare modalità di sottoscrizione elettronica avanzata o qualificata ex Artt. 26 e 27 del medesimo Regolamento, ove reciprocamente concordate.
+
+2.4 Il Prescrittore si impegna a conservare, nella propria cartella clinica o in altro supporto idoneo, la corrispondenza tra il patient_ref e i dati anagrafici del paziente per l'intero periodo di conservazione obbligatoria della documentazione clinica.
+
+2.5 Il Fabbricante conserva la Prescrizione Digitale e la Dichiarazione di Conformità nel fascicolo tecnico del dispositivo, per un periodo non inferiore a dieci (10) anni dalla data di consegna (elevato a quindici (15) anni per dispositivi impiantabili), ai sensi dell'Art. 10, par. 8, del Regolamento MDR. La cancellazione anticipata è impossibile in ragione dell'obbligo legale inderogabile.
+
+2.6 Il Fabbricante si riserva di sospendere la lavorazione qualora i dati della Prescrizione Digitale risultino incompleti, incoerenti o tecnicamente non realizzabili, dandone tempestiva comunicazione al Committente tramite i canali della piattaforma. La sospensione non configura inadempimento del Fabbricante.
+
+Art. 3 - Requisiti Generali di Sicurezza e Prestazione (GSPR)
+
+Il Fabbricante garantisce che il dispositivo è progettato e fabbricato in modo da soddisfare i Requisiti Generali di Sicurezza e Prestazione stabiliti dall'Allegato I del Regolamento MDR. Qualora il Committente indichi specifiche tecniche che deroghino parzialmente a tali requisiti per comprovate necessità cliniche del paziente, tali deroghe devono essere esplicitamente motivate nella prescrizione. Il Fabbricante declina ogni responsabilità per esiti clinici negativi derivanti da dati di scansione o impronte digitali qualitativamente inidonei o clinicamente imprecisi forniti dal Committente.
+
+Art. 4 - Obbligo di Documentazione e Tracciabilità Decennale
+
+Ai sensi dell'Art. 10, paragrafo 8 e dell'Allegato XIII, punto 2 del Regolamento MDR, il Fabbricante istituisce e mantiene aggiornato un fascicolo tecnico per ogni dispositivo su misura prodotto. Tale documentazione, che include i processi di fabbricazione, i lotti dei materiali utilizzati e le prestazioni previste, sarà conservata per un periodo di almeno 10 anni dalla data di immissione sul mercato (elevato a 15 anni per i dispositivi impiantabili). Il Committente si assume l'obbligo speculare di conservare la documentazione clinica del paziente e la Dichiarazione di Conformità emessa dal Fabbricante per il medesimo periodo.
+
+Art. 5 - Protocollo Sorveglianza Post-Commercializzazione (PMS) e Vigilanza
+
+Il Fabbricante applica un sistema di sorveglianza post-commercializzazione conforme all'Art. 83 del Regolamento. Il Committente è obbligato per legge a segnalare immediatamente al Fabbricante qualsiasi incidente grave, malfunzionamento o deterioramento delle caratteristiche del dispositivo che possa causare danni alla salute del paziente o di terzi. Le segnalazioni devono essere effettuate tramite i canali di emergenza previsti dalla piattaforma Order Manager per consentire al Fabbricante di adempiere agli obblighi di notifica verso le autorità competenti entro i termini perentori stabiliti dall'Art. 87.
+
+Art. 6 - Materiali, Biocompatibilità e Rischi Residui
+
+Il Fabbricante utilizza esclusivamente materiali certificati CE, selezionati per la loro biocompatibilità e conformità agli standard ISO di settore. Nonostante l'adozione di rigorose misure di gestione del rischio, persistono rischi residui minimi legati all'uso dei dispositivi (es. reazioni allergiche localizzate, usura meccanica nel tempo) che il Committente ha l'onere di comunicare al paziente finale durante la raccolta del consenso informato. Il Fabbricante fornisce, su richiesta, l'elenco qualitativo dei componenti e delle sostanze utilizzate.
+
+Art. 7 - Tempi di Produzione e Validazione Tecnica
+
+I tempi di fornitura decorrono dal momento della "Validazione Tecnica" del file digitale da parte del laboratorio. Il Fabbricante si riserva il diritto di sospendere la produzione qualora i file ricevuti presentino artefatti, mancanze di dati o incoerenze geometriche che possano pregiudicare la sicurezza del dispositivo. La ripresa della produzione avverrà solo dopo l'invio di dati corretti da parte del Committente.
+
+Art. 8 - Responsabilità, Garanzie e Copertura Assicurativa
+
+8.1 Il Fabbricante garantisce che i dispositivi su misura da esso realizzati sono conformi alla prescrizione ricevuta e ai Requisiti Generali di Sicurezza e Prestazione dell'Allegato I del Regolamento (UE) 2017/745, per come applicabili alla categoria dei dispositivi medici su misura.
+
+8.2 Il Committente è tenuto a verificare la conformità del dispositivo alla prescrizione entro 60 (sessanta) giorni dalla consegna, e a segnalare eventuali difetti manifesti entro tale termine, a pena di decadenza. Per i vizi occulti si applica l'Art. 1495, co. 3, c.c. nel termine di prescrizione ivi previsto.
+
+8.3 La responsabilità del Fabbricante per inadempimento contrattuale è limitata — nel rapporto B2B con il Committente — ai danni diretti e prevedibili cagionati dal difetto del dispositivo, con esclusione dei danni indiretti, consequenziali, mediati, da lucro cessante, da perdita di avviamento o da danno all'immagine, ai sensi dell'Art. 1225 c.c.
+
+8.4 Salvo quanto previsto al successivo Art. 8.5, il limite massimo complessivo di responsabilità del Fabbricante nei confronti del Committente, per qualsiasi ragione derivante dal presente contratto, non potrà eccedere l'importo maggiore tra Euro 50.000,00 (cinquantamila/00) per singolo evento ed il triplo dei corrispettivi pagati dal Committente al Fabbricante nei 12 (dodici) mesi antecedenti all'evento.
+
+8.5 Le limitazioni di cui ai precedenti commi 8.3 e 8.4 non operano nei casi di:
+- (a) dolo o colpa grave del Fabbricante, ex Art. 1229 c.c.;
+- (b) danno alla persona o alla salute, ivi compreso il decesso del paziente;
+- (c) responsabilità oggettiva del produttore verso il paziente ex artt. 114 ss. del Codice del Consumo (Dlgs 6 settembre 2005, n. 206), attuativi della Direttiva 85/374/CEE come modificata — responsabilità che resta integralmente impregiudicata nel rapporto diretto paziente/Fabbricante;
+- (d) obblighi sanzionatori del Fabbricante derivanti da violazione del Regolamento MDR o GDPR;
+- (e) responsabilità connessa al trattamento dei dati personali, disciplinata in via autonoma dal Data Processing Agreement e non soggetta al limite di cui all'Art. 8.4.
+
+8.6 La responsabilità del Fabbricante non si estende a:
+- (a) diagnosi, piano di trattamento, indicazioni terapeutiche, valutazione del consenso informato, procedure chirurgiche o protesiche eseguite dal Prescrittore o da altri professionisti sanitari, che restano di esclusiva competenza e responsabilità del medesimo;
+- (b) esiti clinici negativi derivanti da scansioni, impronte digitali o dati anatomici forniti dal Committente con qualità inadeguata o errori clinici, sempre che il Fabbricante abbia segnalato al Committente le anomalie riscontrate sui dati ricevuti o queste non fossero rilevabili con l'ordinaria diligenza professionale;
+- (c) conservazione e manutenzione del dispositivo dopo la consegna, che restano sotto la responsabilità del paziente secondo le indicazioni fornite dal Committente.
+
+8.7 Ai sensi dell'Art. 10, par. 16, del Regolamento MDR, il Fabbricante provvede alla stipula di copertura assicurativa di responsabilità civile professionale e da prodotto difettoso, con massimale proporzionato alla classe di rischio e alla tipologia dei dispositivi fabbricati, presso primaria compagnia italiana. La polizza è attualmente in fase di stipula; il certificato di assicurazione sarà reso disponibile al Committente su richiesta motivata non appena perfezionata.
+
+Art. 9 - Protezione dei Dati Personali e Sanitari
+
+9.1 Il trattamento dei dati personali e sanitari nell'ambito del presente contratto avviene nel rigoroso rispetto del Regolamento (UE) 2016/679 (GDPR), del Decreto Legislativo 30 giugno 2003, n. 196 come coordinato con il Decreto Legislativo 10 agosto 2018, n. 101, nonché delle disposizioni del Regolamento MDR relative alla minimizzazione e alla tracciabilità dei dati sanitari.
+
+9.2 Il Committente ed [[LAB_NAME]] rivestono, rispetto ai dati personali dei pazienti, i ruoli di cui all'Art. 28 GDPR secondo la configurazione applicabile ai sensi dell'Art. 1: nella configurazione (a) il Committente è Titolare del Trattamento ed [[LAB_NAME]] Responsabile; nella configurazione (b) il committente professionale opera quale Responsabile ed [[LAB_NAME]] quale sub-responsabile, restando Titolare il soggetto a monte. La qualificazione delle parti è formalizzata nel Data Processing Agreement (DPA) sottoscritto separatamente, che costituisce parte integrante del presente contratto.
+
+9.3 Il sistema "Order Manager" è progettato secondo i principi di privacy by design e privacy by default ex Art. 25 GDPR. In particolare, il Committente trasmette al Fabbricante esclusivamente dati pseudonimizzati ex Art. 4, par. 5, GDPR: il paziente viene identificato mediante acronimo o codice alfanumerico univoco (patient_ref) generato dal Prescrittore, che conserva in via esclusiva, nella propria cartella clinica, la corrispondenza tra il patient_ref e i dati anagrafici del paziente. Il Fabbricante non conosce né conserva tale corrispondenza.
+
+9.4 La tracciabilità del dispositivo medico ai sensi dell'Art. 25 del Regolamento MDR è assicurata dalla combinazione di (i) patient_ref nel fascicolo tecnico del Fabbricante e (ii) cartella clinica del Prescrittore che collega il patient_ref al paziente. Le Parti riconoscono che tale architettura realizza integralmente l'obbligo di tracciabilità, senza necessità che il Fabbricante tratti dati anagrafici del paziente.
+
+9.5 Il Committente si obbliga a:
+- (a) non caricare sul sistema "Order Manager", in alcuna delle sezioni dedicate al dispositivo o al paziente, dati anagrafici, contatti, codice fiscale o altri elementi identificativi diretti del paziente;
+- (b) garantire che eventuali annotazioni cliniche o immagini cliniche (es. radiografie DICOM) caricate siano anonimizzate nei metadati (rimozione tag DICOM PatientName, PatientID, PatientBirthDate ove sostituiti con patient_ref);
+- (c) consegnare al paziente, prima del prelievo dei dati, l'Informativa Privacy (Art. 13 GDPR) che il Fabbricante mette a disposizione sul sistema sotto forma di PDF standard personalizzabile.
+
+9.6 In caso di caricamento accidentale di dati identificativi del paziente nel sistema in violazione del comma 9.5, il Committente è tenuto a darne immediata comunicazione al Fabbricante per consentirne la rimozione. La permanenza di tali dati oltre i termini di conservazione obbligatori MDR configura inadempimento del Committente. Fermo restando che ciascuna Parte risponde direttamente nei confronti dell'Autorità di controllo per le violazioni ad essa imputabili, il Committente si obbliga a manlevare e tenere indenne il Fabbricante da ogni onere economico — inclusi, a titolo esemplificativo, sanzioni amministrative, risarcimenti a terzi, spese legali, costi di gestione e notifica dell'incidente — che quest'ultimo sia tenuto a sostenere in conseguenza di violazioni determinate dall'inadempimento del Committente di cui al presente comma. Il Fabbricante si impegna a comunicare al Committente l'incidente entro 48 ore dalla scoperta, per consentirne l'esercizio del diritto di difesa prima dell'adozione di misure. Il termine di prescrizione dell'azione di rivalsa è quello ordinario di dieci (10) anni ex Art. 2946 c.c.
+
+Art. 9-bis - Accesso alla Piattaforma e Spazio Cloud
+
+9-bis.1 Oggetto. L'iscrizione include l'accesso alla piattaforma "Order Manager" e a uno Spazio Cloud per il caricamento, l'archiviazione e la gestione dei file funzionali all'utilizzo del servizio. Con l'iscrizione è fornita a titolo gratuito una quota di Spazio Cloud di base; spazio aggiuntivo e funzionalità ulteriori possono essere acquistati separatamente secondo i piani tempo per tempo pubblicati sulla piattaforma, che il Committente dichiara di conoscere e accettare al momento dell'eventuale sottoscrizione. I corrispettivi, le quote e le caratteristiche dei piani sono soggetti alle condizioni economiche pubblicate sulla piattaforma e non formano parte del presente contratto.
+
+9-bis.2 Responsabilità del Committente sui propri dati. Il Committente è esclusivo responsabile dei dati e dei file che carica, archivia o gestisce nello Spazio Cloud, della loro liceità e del rispetto degli obblighi di pseudonimizzazione di cui all'Art. 9.5. Il Committente è tenuto a conservare una propria copia dei file caricati; i sistemi di backup adottati dal Fabbricante sono finalizzati alla continuità operativa del servizio e non sostituiscono l'onere di copia a carico del Committente.
+
+9-bis.3 Disponibilità. Il Fabbricante eroga il servizio con disponibilità tendenzialmente continua, fatte salve le interruzioni dovute a manutenzione ordinaria e straordinaria — di norma comunicate con ragionevole preavviso per gli interventi programmati — e quelle derivanti da cause non imputabili al Fabbricante, ivi compresi gli eventi di cui all'Art. 12. Il presente contratto non configura un obbligo di disponibilità a livelli di servizio garantiti (Service Level Agreement), salvo diverso accordo scritto fra le Parti.
+
+9-bis.4 Uso conforme. Il Committente utilizza la piattaforma e lo Spazio Cloud nel rispetto della legge, delle finalità del servizio e delle istruzioni operative pubblicate, astenendosi da utilizzi che ne pregiudichino la sicurezza, l'integrità o la disponibilità per gli altri utenti.
+
+9-bis.5 Distinzione tra file e regimi di conservazione. Ai fini del presente contratto si distinguono:
+- (a) i file associati a un ordine — caricati nell'ambito di una Prescrizione Digitale e confluiti nel fascicolo tecnico del dispositivo — che costituiscono documentazione soggetta agli obblighi di conservazione di cui agli Artt. 2.5, 4 e 6 (almeno 10 anni dall'immissione sul mercato, elevati a 15 anni per i dispositivi impiantabili, ai sensi dell'Art. 10, par. 8, MDR) e non sono cancellabili anticipatamente;
+- (b) i file liberi — caricati o conservati nello Spazio Cloud senza associazione ad alcun ordine — che restano nella disponibilità e sotto il controllo del Committente per la durata del rapporto e sono soggetti al regime di conservazione di cui al comma 9-bis.6.
+
+9-bis.6 Conservazione dei file liberi a sospensione o cessazione. In caso di sospensione o di cessazione del rapporto, per qualsiasi causa, i file liberi di cui al comma 9-bis.5(b) sono conservati per un periodo di 12 (dodici) mesi, decorso il quale sono definitivamente cancellati. Resta impregiudicato l'obbligo di conservazione dei file associati a un ordine di cui al comma 9-bis.5(a), che seguono il regime MDR indipendentemente dalla cessazione del rapporto.
+
+Art. 10 - Foro Competente e Legge Applicabile
+
+Il presente rapporto professionale è regolato esclusivamente dalla Legge Italiana e dai Regolamenti UE direttamente applicabili. Per ogni controversia derivante dall'interpretazione, esecuzione o risoluzione del presente contratto, le parti riconoscono la competenza esclusiva del [[LAB_COURT]].
+
+Art. 11 - Durata, Recesso e Risoluzione
+
+11.1 Durata. Il presente contratto ha durata a tempo indeterminato, decorrente dalla data di accettazione delle condizioni. Ciascuna Parte può recedere in qualunque momento con preavviso scritto di almeno 30 (trenta) giorni, salvi i casi di risoluzione di cui ai commi successivi.
+
+11.2 Effetti del recesso. Il recesso non pregiudica l'esecuzione degli ordini già accettati alla data di efficacia del recesso, che sono portati a termine secondo le condizioni del presente contratto. Il Committente resta tenuto al pagamento dei corrispettivi per gli ordini in corso e per gli ordini accettati.
+
+11.3 Risoluzione di diritto per inadempimento. Il Fabbricante può risolvere il contratto ai sensi dell'Art. 1456 c.c., con comunicazione scritta, in caso di:
+- (a) mancato pagamento di corrispettivi per oltre 30 giorni dalla messa in mora;
+- (b) violazione accertata delle obbligazioni di riservatezza o di corretto utilizzo della piattaforma;
+- (c) utilizzo della piattaforma per finalità illecite o in violazione del Regolamento MDR;
+- (d) uso della piattaforma per conto di soggetti terzi non autorizzati.
+
+11.4 Trattamento dei dati dopo cessazione. Alla cessazione del contratto per qualsiasi causa, il Fabbricante:
+- (a) sospende l'accesso alla dashboard del Committente;
+- (b) conserva per 10 anni dalla data di cessazione (15 per ordini impiantabili) gli ordini archiviati e il fascicolo tecnico MDR, ai sensi dell'Art. 10(8) MDR;
+- (c) conserva per 10 anni dalla data di cessazione i dati del Committente necessari per la difesa in giudizio e per obblighi fiscali (Artt. 2220 c.c., 22 DPR 600/1973);
+- (d) cancella, entro 30 giorni dalla cessazione, i dati non coperti dai precedenti obblighi.
+- (e) conserva i file liberi presenti nello Spazio Cloud per il periodo di 12 (dodici) mesi di cui all'Art. 9-bis.6 — in deroga al termine di cui alla precedente lettera (d) — decorso il quale procede alla loro cancellazione definitiva.
+
+Art. 12 - Forza Maggiore
+
+12.1 Nessuna delle Parti è inadempiente né responsabile nei confronti dell'altra per ritardi o inadempimenti derivanti da eventi di forza maggiore non imputabili alle Parti medesime, quali (a titolo esemplificativo e non tassativo): disastri naturali, incendi, pandemie, atti dell'autorità, guerre o atti di terrorismo, interruzioni non imputabili della rete elettrica o delle telecomunicazioni, interruzioni o degradazioni di servizi di fornitori terzi indispensabili alla fornitura, scioperi generali, indisponibilità prolungata di materiali dentali certificati CE indispensabili alla produzione.
+
+12.2 La Parte colpita dà tempestiva comunicazione scritta dell'evento di forza maggiore all'altra Parte, indicandone la natura e la durata presunta. La Parte colpita si adopera con ordinaria diligenza per attenuarne gli effetti.
+
+12.3 Se l'evento di forza maggiore si protrae per più di 60 (sessanta) giorni consecutivi, ciascuna Parte può recedere dal contratto con effetto immediato, senza oneri per nessuna delle Parti.
+
+Art. 13 - Modifiche Contrattuali
+
+13.1 Il Fabbricante si riserva il diritto di modificare i presenti Termini e Condizioni, l'Informativa Privacy e il DPA per adeguarli a modifiche normative, evoluzioni tecniche del sistema, o intervenute esigenze organizzative. Le modifiche entrano in vigore decorsi 30 (trenta) giorni dalla comunicazione scritta al Committente, fermo restando che modifiche imposte da obblighi di legge o da provvedimenti dell'Autorità entrano in vigore immediatamente.
+
+13.2 La comunicazione delle modifiche è effettuata tramite la piattaforma (banner all'accesso e notifica email) con richiesta di nuova presa visione e, ove necessario, nuova sottoscrizione prima del proseguimento dell'utilizzo.
+
+13.3 Il Committente che non intenda accettare le modifiche può recedere dal contratto senza penali entro 30 giorni dalla notifica, con comunicazione scritta al Fabbricante. In difetto di recesso entro tale termine, le modifiche si intendono tacitamente accettate per la prosecuzione del rapporto.
+
+Art. 14 - Cessione del Contratto
+
+14.1 Il Committente non può cedere il presente contratto o i diritti da esso derivanti a terzi senza preventivo consenso scritto del Fabbricante, salvo il caso di cessione complessiva dello studio professionale o di operazione straordinaria societaria, nel qual caso il Fabbricante non potrà negare il consenso senza giustificato motivo.
+
+14.2 Il Fabbricante può cedere il contratto nell'ambito di operazioni di riorganizzazione aziendale, dando preventiva comunicazione al Committente, salvo il diritto di recesso di quest'ultimo ai sensi dell'Art. 13.3.
+
+Art. 15 - Riservatezza e Proprietà Intellettuale
+
+15.1 Ciascuna Parte si impegna a mantenere riservate le informazioni tecniche, commerciali, clinico-sanitarie di cui venga a conoscenza nell'ambito del presente contratto. L'obbligo di riservatezza sopravvive per 5 (cinque) anni alla cessazione del contratto.
+
+15.2 I file CAD/CAM caricati dal Committente restano di proprietà del Committente e, per la parte biometrica, del paziente. Il Fabbricante acquisisce una licenza d'uso non esclusiva, non trasferibile e limitata alle finalità di fabbricazione del dispositivo e di conservazione nel fascicolo tecnico MDR.
+
+15.3 I disegni tecnici, le procedure di lavorazione, i protocolli di QC e il software sviluppati dal Fabbricante per la fabbricazione del dispositivo restano di esclusiva proprietà del Fabbricante, senza che la consegna del dispositivo integri cessione o licenza degli stessi.
+
+Art. 16 - Comunicazioni
+
+16.1 Tutte le comunicazioni formali tra le Parti avvengono:
+- (a) tramite il sistema di messaggistica interno alla piattaforma Order Manager, con valore di comunicazione scritta a tutti gli effetti; oppure
+- (b) via PEC all'indirizzo indicato nel profilo account del Committente e al PEC del Fabbricante indicato nell'intestazione.
+
+16.2 Le Parti si impegnano a mantenere aggiornati i propri recapiti nel sistema. Le comunicazioni inviate ai recapiti registrati si considerano efficacemente ricevute.
+
+Art. 17 - Clausola di Integrazione
+
+Il presente contratto, unitamente all'Informativa Privacy e al Data Processing Agreement sottoscritti contestualmente, costituisce l'integrale accordo tra le Parti in relazione all'oggetto del contratto e sostituisce ogni precedente intesa, proposta, negoziazione o dichiarazione, scritta o verbale, relativa allo stesso oggetto. Eventuali dichiarazioni o promesse non contenute nel presente contratto sono prive di efficacia vincolante. Se una o più clausole del presente contratto dovessero risultare invalide, nulle o inefficaci, le restanti clausole continueranno ad avere piena validità ed efficacia. La clausola invalida sarà sostituita, nei limiti consentiti dalla legge, da una disposizione valida che si avvicini il più possibile alla volontà originaria delle Parti.
+
+CLAUSOLA DI SPECIFICA APPROVAZIONE AI SENSI DELL'ART. 1341, COMMA 2, C.C.
+(Richiede accettazione separata — Step 2 dell'onboarding)
+
+Il Committente, per l'apposizione della seconda accettazione prevista dalla piattaforma al momento della sottoscrizione del contratto, dichiara di approvare specificamente le seguenti clausole, il cui testo integrale è riportato negli articoli sopra indicati:
+
+- Art. 2.6 (Sospensione della lavorazione in caso di dati della Prescrizione Digitale incompleti, incoerenti o tecnicamente non realizzabili)
+- Art. 7 (Tempi di Produzione e Validazione Tecnica — riserva del Fabbricante di sospendere la produzione)
+- Art. 8.2 (Verifica della conformità e denuncia dei difetti manifesti entro 60 giorni dalla consegna, a pena di decadenza)
+- Art. 8.3 (Limitazione ai soli danni diretti e prevedibili, con esclusione di danni indiretti, consequenziali, da lucro cessante e da danno all'immagine)
+- Art. 8.4 (Limite massimo complessivo di responsabilità: l'importo maggiore tra Euro 50.000,00 per singolo evento e il triplo dei corrispettivi pagati nei 12 mesi antecedenti l'evento)
+- Art. 8.6 (Esclusione di responsabilità del Fabbricante per attività cliniche, diagnosi, piani di trattamento e procedure eseguite dal Prescrittore o da altri professionisti sanitari)
+- Art. 9.6 (Obbligo di manleva e tenuta indenne del Committente per caricamento accidentale di dati identificativi del paziente)
+- Art. 9-bis.3 (Esclusione di livelli di servizio garantiti per la piattaforma e lo Spazio Cloud)
+- Art. 9-bis.6 (Cancellazione definitiva dei file liberi decorsi 12 mesi dalla sospensione o cessazione del rapporto)
+- Art. 10 (Foro competente esclusivo: [[LAB_COURT]] per qualsiasi controversia)
+- Art. 11.3 (Clausola risolutiva espressa ai sensi dell'Art. 1456 c.c.)
+- Art. 13 (Modifica unilaterale del contratto con preavviso di 30 giorni e accettazione tacita per silenzio)
+- Art. 14.1 (Divieto di cessione del contratto da parte del Committente senza consenso scritto del Fabbricante)
+
+Ai sensi dell'Art. 1341, comma 2, c.c., la specifica approvazione di queste clausole richiede un'azione distinta dall'accettazione generale del contratto.
+
+[[LAB_NAME]] · P.IVA [[LAB_VAT]] · Termini e Condizioni Generali di Fornitura · Versione 2026.4

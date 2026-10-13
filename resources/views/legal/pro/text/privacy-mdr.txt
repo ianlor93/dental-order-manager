@@ -1,0 +1,107 @@
+Informativa sul Trattamento dei Dati Personali — Servizi
+ai sensi degli Artt. 13 e 14 del Regolamento (UE) 2016/679 (GDPR)
+
+La presente informativa descrive il trattamento dei dati personali del Committente in qualità di cliente della piattaforma "Order Manager" (dati anagrafici, fiscali, professionali, di contatto, di account e di navigazione nella piattaforma), rispetto ai quali [[LAB_NAME]] agisce come Titolare autonomo del trattamento.
+
+Il trattamento dei dati dei pazienti, rispetto ai quali [[LAB_NAME]] agisce come Responsabile ex Art. 28 GDPR, è disciplinato dal Data Processing Agreement (DPA) sottoscritto separatamente. L'informativa che il Prescrittore è tenuto a rendere al proprio paziente è fornita a parte (Informativa Paziente — Art. 13 GDPR), come modello messo a disposizione dal Fabbricante.
+
+1. TITOLARE DEL TRATTAMENTO
+
+Per i dati del Committente quale cliente della piattaforma (anagrafici, fiscali, professionali, di contatto, di account, di navigazione):
+
+- Titolare del Trattamento: [[LAB_NAME]], [[LAB_ADDRESS]], [[LAB_ZIP]] [[LAB_CITY]], P.IVA [[LAB_VAT]] — [[LAB_EMAIL]] — n. registrazione Ministero della Salute [[LAB_MDR_REG]].
+
+2. CONTATTI DEL DATA PROTECTION OFFICER
+
+Responsabile della Protezione dei Dati (DPO): non nominato — alla scala attuale dell'attività non ricorrono i presupposti di designazione obbligatoria di cui all'Art. 37(1) GDPR; il Titolare riesamina periodicamente tale valutazione, con cadenza trimestrale, in attuazione del principio di responsabilizzazione (Art. 5(2) GDPR). Contatto per la protezione dei dati: [[LAB_EMAIL]].
+
+3. TIPOLOGIE DI DATI TRATTATI
+
+3.1 Dati del Committente (Titolare = [[LAB_NAME]]): dati anagrafici (nome, cognome), dati professionali (iscrizione Ordine/Albo, titoli), dati identificativi studio (ragione sociale, P.IVA, sede, PEC, SDI), dati di contatto (telefono, email, PEC), credenziali (uid Nextcloud, hash password gestito da Nextcloud), dati di fatturazione, indirizzi operativi.
+
+3.2 Dati di navigazione (Titolare = [[LAB_NAME]]): indirizzo IP, User-Agent, pagine visitate, timestamp, cookie tecnici di sessione, log applicativi.
+
+4. FINALITÀ E BASE GIURIDICA
+
+F1 · Esecuzione del contratto di fornitura di DMS · Base: Contratto · Art. 6(1)(b) GDPR
+F2 · Fatturazione e adempimenti fiscali · Base: Obbligo legale · Art. 6(1)(c) + DPR 633/1972
+F3 · Conformità regolamentare MDR (fascicolo tecnico, dichiarazione, PMS, tracciabilità) · Base: Obbligo legale · Art. 6(1)(c) + Reg. (UE) 2017/745
+F5 · Sicurezza del sistema informativo (logging, antivirus, rate-limiting) · Base: Legittimo interesse del Titolare · Art. 6(1)(f) — prevalente per integrità DMS
+F6 · Risposta a richieste delle autorità competenti · Base: Obbligo legale · Art. 6(1)(c)
+F7 · Difesa in giudizio · Base: Legittimo interesse · Art. 6(1)(f) + Art. 9(2)(f) per dati sanitari
+
+5. NATURA DEL CONFERIMENTO DEI DATI
+
+Il conferimento dei dati indicati al paragrafo 3.1 (Committente) è necessario per la stipula e l'esecuzione del contratto. Il mancato conferimento rende impossibile l'attivazione dell'account sulla piattaforma e la fornitura dei dispositivi.
+
+6. DESTINATARI DEI DATI
+
+I dati possono essere trasmessi, per le rispettive finalità, ai seguenti soggetti in qualità di Responsabili del trattamento o di Autonomi titolari del trattamento:
+
+Nextcloud (gestito internamente dal Fabbricante) · Responsabile interno · SSO, storage · Italia — server proprietari
+Aruba S.p.A. · Responsabile · SMTP transazionale · Italia
+Cloudflare, Inc. · Responsabile · CDN / DDoS / WAF · USA (DPF + SCCs)
+Fornitori di materiali dentali certificati CE · Autonomi · Acquisto materiali · UE/SEE
+Commercialista / consulente fiscale · Responsabile · Adempimenti fiscali · Italia
+Assicuratore RC professionale · Autonomo · Gestione sinistri · Italia
+Agenti / Rappresentanti commerciali [[LAB_NAME]] · Autonomo Titolare · Gestione provvigioni e portfolio clienti — SOLO dati commerciali aggregati (ragione sociale, P.IVA, volume ordini, importi fatturati), nessun accesso a dati clinici né a patient_ref · Italia
+Autorità Competenti (Ministero Salute, Garante Privacy, Autorità Giudiziaria) · Autonomi · Adempimenti di legge · Italia
+
+Nota agenti commerciali: Gli agenti sono qualificati come autonomi Titolari del trattamento ex Art. 4(7) GDPR per i dati commerciali degli studi che trattano per la propria attività (gestione provvigioni, gestione rapporto commerciale). Non sono sub-responsabili ex Art. 28 GDPR. I dati clinici (patient_ref, file CAD/CAM) non sono mai accessibili agli agenti.
+
+Non è prevista diffusione dei dati (comunicazione a soggetti indeterminati).
+
+7. TRASFERIMENTI VERSO PAESI TERZI
+
+I dati clinici (file CAD/CAM, patient_ref, note cliniche) sono trattati esclusivamente su server siti in Italia. Per i dati di traffico web, il Fabbricante utilizza servizi forniti da Cloudflare, Inc. (con sede negli Stati Uniti), certificata secondo il EU-U.S. Data Privacy Framework (decisione di adeguatezza UE 2023/1795 del 10 luglio 2023). In via di ulteriore tutela, i trasferimenti sono regolati dalle Clausole Contrattuali Standard di cui alla Decisione (UE) 2021/914 del 4 giugno 2021, integrate con misure supplementari di cifratura e pseudonimizzazione conformi alle Raccomandazioni 01/2020 EDPB. Copia delle clausole e dettaglio delle misure è disponibile su richiesta al contatto per la protezione dei dati ([[LAB_EMAIL]]).
+
+8. PERIODO DI CONSERVAZIONE
+
+Ordini archiviati (standard) · 10 anni da consegna · Art. 10(8) MDR
+Ordini archiviati (impiantabili) · 15 anni da consegna · Art. 10(8) MDR
+Dati del Committente (anagrafici, professionali) · 10 anni da cessazione del rapporto · Art. 2220 c.c. + Art. 22 DPR 600/1973
+Dati fiscali (P.IVA, SDI, PEC, fatture) · 10 anni da emissione/ricezione · Art. 2220 c.c. + DPR 633/1972
+Consensi e accettazioni firmate (ToS, Privacy, DPA con timestamp) · 10 anni da cessazione rapporto, per opponibilità · Art. 2946 c.c.
+Log applicativi · 30 giorni · Minimizzazione + notifica breach 72h
+Sessioni utente · 120 minuti · Necessità tecnica
+File temporanei di upload (chunk CAD/CAM pre-assemblaggio) · 24 ore · Minimizzazione
+Backup di sicurezza · Conformemente a ciclo di ritenzione backup (max 90 giorni se non contengono ordini archiviati) · Art. 32 GDPR
+
+Al termine dei suddetti periodi, i dati sono cancellati o anonimizzati, salvo obblighi di legge ulteriori.
+
+9. DIRITTI DEGLI INTERESSATI
+
+Ciascun interessato può esercitare i seguenti diritti:
+
+Art. 15 — Accesso: conoscere quali dati sono trattati, con copia. Limitazione: bilanciamento con diritti di terzi e segreti industriali.
+Art. 16 — Rettifica dei dati inesatti. Nessuna limitazione.
+Art. 17 — Cancellazione ("diritto all'oblio"). Limitazione: NON esercitabile sui dati contenuti nel fascicolo tecnico MDR prima della scadenza dei 10/15 anni (Art. 17(3)(b) GDPR).
+Art. 18 — Limitazione del trattamento. Possibile in caso di contestazione; per ordini MDR locked si applica marcatura logica senza modifica del dato.
+Art. 20 — Portabilità. Esercitabile per dati trattati con base 6(1)(b) o 9(2)(a); endpoint /gdpr/export → archivio ZIP.
+Art. 21 — Opposizione. Esercitabile per trattamenti su base 6(1)(f) — non applicabile ai trattamenti MDR ex 6(1)(c) + 9(2)(i).
+Art. 22 — Decisioni automatizzate. Non applicabile — nessuna profilazione né decisione automatizzata nel sistema.
+
+Per esercitare i diritti l'interessato può:
+- scrivere alla segreteria del laboratorio all'indirizzo [[LAB_EMAIL]];
+- utilizzare l'apposita funzione "Esporta i miei dati" nella dashboard (endpoint /gdpr/export);
+- richiedere cancellazione tramite "Richiesta di cancellazione" nella dashboard (endpoint /profile/deletion-request).
+
+Il Titolare risponde alle richieste senza ingiustificato ritardo e comunque entro 30 (trenta) giorni dalla ricezione, prorogabili di ulteriori 60 (sessanta) giorni in caso di complessità della richiesta, con comunicazione all'interessato entro il termine originario (Art. 12(3) GDPR).
+
+10. RECLAMO AL GARANTE
+
+L'interessato può proporre reclamo all'Autorità di controllo competente, in particolare al Garante per la Protezione dei Dati Personali (Italia), Piazza Venezia 11, 00187 Roma — protocollo@gpdp.it — protocollo@pec.gpdp.it — www.gpdp.it, qualora ritenga che il trattamento violi il GDPR.
+
+11. ASSENZA DI DECISIONI AUTOMATIZZATE
+
+Il sistema non effettua processi decisionali esclusivamente automatizzati, compresa la profilazione, ex Art. 22 GDPR. Le valutazioni di idoneità degli ordini, accettazione delle prescrizioni e rilascio dei dispositivi sono sempre rimesse al giudizio di operatori qualificati.
+
+12. MODIFICHE DELL'INFORMATIVA
+
+Il Titolare si riserva di aggiornare la presente Informativa. Ogni modifica sostanziale sarà comunicata agli interessati tramite il sistema con almeno 30 giorni di preavviso e determinerà l'incremento di LEGAL_VERSION, richiedendo nuova presa visione per continuare a utilizzare la piattaforma.
+
+13. FORO COMPETENTE E RECLAMI
+
+Per eventuali controversie derivanti dal trattamento, resta ferma la competenza del Garante Privacy italiano e dell'Autorità Giudiziaria ordinaria; è comunque competente il Foro del luogo di residenza o domicilio dell'interessato ex Art. 79(2) GDPR.
+
+[[LAB_NAME]] · P.IVA [[LAB_VAT]] · Informativa Privacy dei Servizi (Artt. 13-14 GDPR) · Versione 2026.4
