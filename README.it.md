@@ -13,7 +13,7 @@ Order Manager è un'applicazione web per **laboratori odontotecnici digitali** c
 **Ordini e produzione**
 - **Scambio diretto dei file tra studio e laboratorio.** Scansioni, progetti e file di produzione passano dall'uno all'altro sui server del laboratorio, senza servizi esterni di trasferimento file né archivi cloud di terzi. I dati clinici restano sotto il controllo del laboratorio, e l'elenco dei sub-responsabili resta corto. Se davanti al server c'è un reverse proxy o una CDN, il traffico passa comunque da lì durante il transito.
 - Prescrizioni dagli studi dentistici, con caricamento dei file CAD/CAM a blocchi ripristinabili e scansione antivirus (ClamAV).
-- Gli ordini attraversano aree di archiviazione dedicate: ingresso, banco di lavoro, finitura e spedizione, archivio storico MDR.
+- Gli ordini attraversano aree di archiviazione dedicate: ingresso, banco di lavoro, creazione documenti e spedizione, archivio storico MDR.
 - Documenti PDF generati per ogni ordine: foglio di richiesta, rapporto di produzione, bolla di consegna, etichetta di spedizione, informativa per il paziente e la **dichiarazione per i dispositivi su misura** (Allegato XIII MDR).
 - Logistica (bolle di consegna) e un'area contabile per fatturare il lavoro del laboratorio, con riepiloghi mensili.
 
